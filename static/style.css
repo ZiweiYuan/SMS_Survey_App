@@ -1,0 +1,30 @@
+#header{
+    background-color: rgb(88,144,220);
+    height: 70px;
+}
+#board{
+    background-color: rgb(248,250,251);
+    height: 600px;
+}
+.info{
+    border: solid white;
+    box-shadow: 3px 3px 3px #ccc;
+    background-color: white;
+}
+.btn-primary{
+    background-color: white;
+    color: black;
+    border-color: #ccc;
+}
+#submit{
+    background-color: rgb(235,169,69);
+    border-radius:15px;
+    color: white;
+    height: 30px;
+}
+.message{
+    box-shadow: 2px 4px 2px #eee;
+}
+label{
+    font-size: 13px;
+}
