@@ -9,13 +9,13 @@ app = Flask(__name__)
 mongo = PyMongo(app)
 app.config.from_object(config)
 # text analysis config
-subscription_key="3639203c28b0470488cd82f99da1bcef"
+subscription_key="xxxxxxxxx"
 assert subscription_key
 text_analytics_base_url = "https://westcentralus.api.cognitive.microsoft.com/text/analytics/v2.0/"
 sentiment_api_url = text_analytics_base_url + "sentiment"
 # twilio config
-account_sid = "AC48eca84c9efb66a84d676482d47f736a"
-auth_token = "7343b6884f3700655843022ecf70265b"
+account_sid = "xxxxxxxxx"
+auth_token = "xxxxxxxxx"
 client = Client(account_sid, auth_token)
 
 # judge if customers have sent feedback, their phone number is the key
